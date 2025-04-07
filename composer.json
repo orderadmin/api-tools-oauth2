@@ -28,7 +28,7 @@
         }
     },
     "require": {
-        "php": "~8.0.0 || ~8.1.0 || ~8.2.0",
+        "php": "^8.2",
         "bshaffer/oauth2-server-php": "^1.14.1",
         "laminas-api-tools/api-tools-api-problem": "^1.5",
         "laminas-api-tools/api-tools-content-negotiation": "^1.8.0",
@@ -36,7 +36,7 @@
         "laminas/laminas-http": "^2.13",
         "laminas/laminas-mvc": "^2.7.15 || ^3.0.2",
         "laminas/laminas-mvc-i18n": "^1.2",
-        "laminas/laminas-servicemanager": "^3.11",
+        "laminas/laminas-servicemanager": "^3.11 || ^4.0",
         "webmozart/assert": "^1.10"
     },
     "require-dev": {
